@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+li {
+    display: inline;
+    float: left;
+    padding: 2px;
+}
+.logo {
+margin-top: 100px;;
+padding-left: 50%;
+padding-right: 50%;
+}
+.search-bar {
+display: flex;
+flex: 100%;
+  margin-top: -37px;
+  height: 34px;
+  width: 100px;
+  padding-left: 50%;
+}
