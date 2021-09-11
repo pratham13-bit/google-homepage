@@ -7,15 +7,15 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
       rel="stylesheet">
         <ul>
-        <li><a id="apps" span class="material-icons-outlined">
+        <li class="head-items"><a id="apps" span class="material-icons-outlined">
                 account_circle
         </span></li> 
-        <li><a id="apps" span class="material-icons-outlined">
+        <li class="head-items"><a id="apps" span class="material-icons-outlined">
             apps
         </span></li>
             
-            <li><a id="gmail" href="#"> Gmail</a></li>
-            <li><a id="images" href="#">Images</a></li>
+        <li class="head-items"><a id="gmail" href="#"> Gmail</a></li>
+        <li class="head-items"><a id="images" href="#">Images</a></li>
         </ul>
  </head>
 
@@ -25,7 +25,26 @@
     </div>
 
 <!--Searchbar-->
-<div>
-    <form>
-        <input type="text" id="searchbar" mame="searchbar">
+<div class="searchbox">
+        <button class="search-button"> <span class="material-icons-outlined">
+            search
+            </span></button>
+    <div class="searchbox">     
+    <form class="searchbox1">
+        <input type="text" id="searchbar" name="searchbar">
     </form>
+    </div>
+    <div class="buttons">
+        <button id="gsearch">Google search</button>
+        <button id="glucky">I'm feeling lucky</button>
+    </div>
+    </div>
+
+<!--footer stuff-->
+<nav class="footer">
+    <footer>
+        <ul>
+            <li class="footer-items">About</li>
+        </ul>
+    </footer>
+</nav>
